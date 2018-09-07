@@ -1,4 +1,4 @@
-colorama
-mechanize
+fuzzywuzzy
+python-Levenshtein
 prettytable
-progressbar
+requests

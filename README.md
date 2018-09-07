@@ -1,48 +1,36 @@
-<p align="middle"><img src='https://i.imgur.com/TKMnPRJ.png' /></p>
+# XSStrike [![python](https://img.shields.io/badge/Python-3-green.svg?style=style=flat-square)](https://www.python.org/downloads/)  [![license](https://img.shields.io/badge/License-MIT-orange.svg?style=style=flat-square)](https://github.com/UltimateHacke/XSStrike/blob/master/license.txt) [![version](https://img.shields.io/badge/Version-Beta-blue.svg?style=style=flat-square)](https://twitter.com/s0md3v)
 
-<a href="http://xsstrike.tk">![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=xsstrike.tk&style=flat-square)</a> ![Python](https://img.shields.io/badge/Requires-Python2.7-blue.svg) ![Version](https://img.shields.io/badge/Version-1.2-red.svg) ![Bugs](https://img.shields.io/badge/Known--Issues-0-yellow.svg)                     
+![banner](https://image.ibb.co/dSSbF8/68747470733a2f2f692e696d6775722e636f6d2f4a3237756f52492e706e67.png)
 
-# XSStrike
-XSStrike is a python script designed to detect and exploit XSS vulnerabilites. Visit XSStrike's [project site](http://xsstrike.tk/) for more info.
+XSStrike is an advanced XSS detection suite. It has a powerful fuzzing engine and provides zero false positive result using fuzzy matching. XSStrike is the first XSS scanner to generate its own payloads. It is intelligent enough to detect and break out of various contexts.
 
-A list of features XSStrike has to offer:
+Made with ![heart](https://cloud.githubusercontent.com/assets/4301109/16754758/82e3a63c-4813-11e6-9430-6015d98aeaab.png) by [Somdev Sangwan](https://twitter.com/s0md3v)
 
-- [x] Fuzzes a parameter and builds a suitable payload
-- [x] Bruteforces paramteres with payloads
-- [x] Has an inbuilt crawler like functionality
-- [x] Can reverse engineer the rules of a WAF/Filter
-- [x] Detects and tries to bypass WAFs
-- [x] Both GET and POST support
-- [x] Most of the payloads are hand crafted
-- [x] Negligible number of false positives
-- [x] Opens the POC in a browser window
+## Features
+- Powerful fuzzing engine
+- Context breaking technology
+- Intelligent payload generation
+- GET & POST method support
+- Cookie Support
+- WAF Fingerprinting
+- Hand crafted payloads for filter and WAF evasion
+- Hidden parameter discovery
+- Accurate results via [levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) algorithm
 
-<img src='https://i.imgur.com/oWVlUjs.png' />
+To know more visit [xsstrike.tk](http://xsstrike.tk)
 
-### Installing XSStrike
-Use the following command to download it
-```
-git clone https://github.com/UltimateHackers/XSStrike/
-```
-After downloading, navigate to XSStrike directory with the following command
-```
-cd XSStrike
-```
-Now install the required modules with the following command
-```
-pip install -r requirements.txt
-```
-Now you are good to go! Run XSStrike with the following command
-```
-python xsstrike
-```
-### Using XSStrike
-You can enter <b>help</b> in XSStrike's target prompt for basic usages.
+**Note:** XSStrike isn't compatible with Python2 anymore, please use `python3 xsstrike` to run it.\
+[Changelog](https://github.com/s0md3v/XSStrike/blob/master/CHANGELOG.md) contains the changes made to XSStrike after the XSStrike v2.0 pre-beta release.
 
-You can view XSStrike's complete documentation [here](http://xsstrike.tk/Documentation/).
+### Screenshots
 
-## Are you a Developer?
-If you are a developer and want to use XSStrike's code in your project or want to contribute to XSStrike then you should read the [developer guide](http://xsstrike.tk/For-Developers/).
+![ss1](https://image.ibb.co/hFAVa8/68747470733a2f2f7873737472696b652e746b2f696d616765732f312e706e67.png)
 
-#### Credits
-XSStrike uses code from [BruteXSS](https://github.com/shawarkhanethicalhacker/BruteXSS), [Intellifuzzer-XSS](https://github.com/matthewdfuller/intellifuzz-xss) and [XsScan](https://github.com/The404Hacking/XsSCan), [WAFNinja](https://github.com/khalilbijjou/WAFNinja/).
+![ss2](https://image.ibb.co/jA9dTT/68747470733a2f2f7873737472696b652e746b2f696d616765732f322e706e67.png)
+
+![ss3](https://image.ibb.co/cwjqa8/68747470733a2f2f7873737472696b652e746b2f696d616765732f342e706e67.png)
+
+![ss4](https://image.ibb.co/gmf7No/68747470733a2f2f7873737472696b652e746b2f696d616765732f352e706e67.png)
+
+#### License
+XSStrike is licensed under [MIT license](https://github.com/s0md3v/XSStrike/blob/master/LICENSE).
